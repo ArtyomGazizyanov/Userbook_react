@@ -1,0 +1,89 @@
+.row,
+.choose_date
+{            
+    font-weight: 600;
+    margin: 0 0 4% 2%;
+    min-width: 40%;
+    display: block;
+
+}
+
+.label_text
+{ 
+    font-weight: 600;
+    margin: 0 0 6% 2%;
+}
+
+.submit
+{    
+    height: 44px;
+    font-weight: 600;
+    font-size: 22px;
+    margin: 10% 10% 0 0;
+}
+
+.form
+{    
+    justify-content: space-between;
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.edit_column
+{
+    margin: 0 0 3% 3%;
+    justify-content: space-between;
+}
+
+.success
+{
+    background-color: #81ca7a;
+    padding: 2%; 
+    border: 1px solid #000; 
+}
+
+.error_msg
+{ 
+    background-color: #ca7a7a;
+    padding: 2%; 
+    border: 1px solid #000; 
+}
+
+.processing
+{    
+    background-color: #e6e6e6;
+    padding: 2%; 
+    border: 1px solid #000; 
+}
+
+.form_msg
+{
+    text-align: center;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.message
+{
+    text-align: center;
+    flex-direction: column;
+}
+
+.message .text
+{
+    margin: 0 0 2%;
+}
+
+.back_to_menu_button
+{ 
+    color: #fff;
+    border: 1px solid #000;
+    display: block;
+    padding: 2%;
+    margin: 0 auto;
+    max-width: 23%;
+    background: #507299;
+    cursor: pointer;
+}
